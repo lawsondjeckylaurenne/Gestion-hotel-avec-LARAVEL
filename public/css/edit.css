@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #30b1ed;
+    --second-color: #170202;
+    --black-color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.login_box {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-header span {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.input_box, .input_boxp {
+    margin-bottom: 15px;
+}
+
+.name, .nametel, .nameville, .Standing p, .urbain p {
+    font-weight: bold;
+    color: var(--second-color);
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.urbain-reponse, .Standing-choix {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.urbain-reponse input, .Standing-choix input {
+    margin-right: 5px;
+}
+
+.input-submit, .input-reset, .form-see {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.input-submit {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.input-reset {
+    background-color: #ccc;
+    color: #000;
+}
+
+.form-see {
+    background-color: var(--second-color);
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.form-see:hover {
+    background-color: var(--primary-color);
+}
